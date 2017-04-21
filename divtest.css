@@ -1,0 +1,39 @@
+body
+{
+    background-color: #cccccc;
+}
+
+div
+{
+    background-color: #ffffff;
+    margin: 10px;
+    text-align: center;
+}
+
+#top
+{
+
+}
+
+#main
+{
+    display: flex;
+    height: auto;
+    background-color: #cccccc;
+    margin: 0px;
+}
+
+#left
+{
+    width: 25%;
+}
+
+#content
+{
+    flex-grow: 2;
+}
+
+#right
+{
+    width: 25%;
+}

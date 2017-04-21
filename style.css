@@ -1,0 +1,59 @@
+/*tag name*/
+body
+{
+    background-color: #444444;
+}
+
+h1
+{
+    color: #00FF00;
+}
+
+/*id*/
+#id {}
+
+#main
+{
+    width: 500px;
+    height: 500px;
+    background-color: #FFFFFF;
+    margin: 20px;
+}
+
+/*class*/
+.classname{}
+
+.sub
+{
+    width: 400px;
+    height: 400px;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.container
+{
+    display: flex;
+    width: 1200px;
+    height: 100px;
+    justify-content: center;
+
+}
+
+.cell
+{
+    background-color: #00FF00;
+    border: solid;
+    border-width: 2px;
+
+}
+
+.cellflex
+{
+    flex-grow: 1;
+    background-color: #00FF00;
+    border: solid;
+    border-width: 2px;
+
+}
